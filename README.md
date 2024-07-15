@@ -1,30 +1,36 @@
+```
+8 8798 7779 8888 7
 ⵔ  ●●●ⵔ    ⴱⵔ●ⴱ●●●         ●ⵔⵔⵔ●ⵀ●●              ⵔ
+```
 
-- 👋 Hi, I’m @gertialie
-- 👀 I’m interested in ...
+hi i'm @gertialie
 
-the Glass Bead Game
-millie.Root
-Emily.Dickinson
+```
+WHY I WAKE EARLY
+BY MARY OLIVER
 
-- 🌱 I’m currently learning ...
+Hello, sun in my face.
+Hello, you who make the morning
+and spread it over the fields
+and into the faces of the tulips
+and the nodding morning glories,
+and into the windows of, even, the
+miserable and crotchety–
 
-castalian rules Glass Bead Game
-python
+best preacher that ever was,
+dear star, that just happens
+to be where you are in the universe
+to keep us from ever-darkness,
+to ease us with warm touching,
+to hold us in the great hands of light–
+good morning, good morning, good morning.
 
-- 💞️ I’m looking to collaborate on ...
+Watch, now, how I start the day
+in happiness, in kindness.
+```
+---
 
-Glass Bead Games!
 
-- 📫 How to reach me ...
 
-leave an issue in this github repo!
 
-- 😄 Pronouns: she
-  
-- ⚡ Fun fact: 
 
-<!---
-gertialie/gertialie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
