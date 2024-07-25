@@ -12,7 +12,7 @@ import os
 import sys
 
 from cmd2 import Cmd
-
+from datetime import datetime
 from .log import LOG
 
 OBJECTS_DIR = os.getcwd() + "/o"
@@ -72,7 +72,7 @@ class yApp(Cmd):
                 if not line:
                   return False
                 
-                if line.startswith(b'\tmodified:   '):
+                if line.startswith(b'\tmodified:   ') or line.startswith(b'\tdeleted:') or line.startswith(b'\trenamed:') :
                   return True
 
             return False
@@ -91,6 +91,11 @@ class yApp(Cmd):
         subprocess.run(("git", "commit", "-a", "-q", "-m", composition))
 
         return 0
+
+    def do_capture(self, args):
+        import subprocess
+
+        subprocess.run( ( "imagesnap", "-d", "CA FLINT", f"{datetime.now():%Y%m%d%H%M%S}.png") )
 
     def do_draw(self, args):
         from .draw import yDrawApp
